@@ -6,17 +6,17 @@ Feature: Employee Management in OrangeHRM
 
 
   Scenario: Login with valid credentials
-    Given I am on the OrangeHRM login page
-    When I enter valid username "Admin" and password "admin123"
-    And I click on the login button
-    Then I should be redirected to the dashboard
+    Given User is on the OrangeHRM login page
+    When User enters valid username "Admin" and password "admin123"
+    And User clickS on the login button
+    Then User should be redirected to the dashboard
 
   Scenario Outline: Adding a new employee
-    Given I am logged into the admin portal
-    When I navigate to "PIM" and click on "Add Employee"
-    And I enter "<first_name>" and "<last_name>" in the name fields
-    And I select the job title "<job_title>"
-    And I click on "Save"
+    Given User is logged into the admin portal
+    When User navigates to "PIM" and click on "Add Employee"
+    And User enters "<first_name>" and "<last_name>" in the name fields
+    And User selects the job title "<job_title>"
+    And User clicks on "Save"
     Then the new employee "<first_name> <last_name>" should be added successfully
 
     Examples:
@@ -25,20 +25,20 @@ Feature: Employee Management in OrangeHRM
       | Abc        | Xyz       | HR Manager   |
 
   Scenario: Search for an employee by name
-    Given I am logged into the admin portal
-    When I search for an employee with name "Nidhi Jaiswal"
+    Given User is logged into the admin portal
+    When User searches for an employee with name "Nidhi Jaiswal"
     Then the employee "Nidhi Jaiswal" should appear in the results
 
   Scenario: Update employee details
-    Given I am logged into the admin portal
-    When I search for the employee "Nidhi Jaiswal"
-    And I click on the "Edit" button
-    And I update the job title to "Senior Software Engineer"
-    And I click on "Save"
+    Given User is logged into the admin portal
+    When User searches for the employee "Nidhi Jaiswal"
+    And User clicks on the "Edit" button
+    And User updates the job title to "Senior Software Engineer"
+    And User clicks on "Save"
     Then the employee "Nidhi Jaiswal" should have the job title "Senior Software Engineer"
 
   Scenario: Delete an employee
-    Given I am logged into the admin portal
-    When I search for the employee "Abc"
-    And I click on the "Delete" button
+    Given User is logged into the admin portal
+    When User searches for the employee "Abc"
+    And User clicks on the "Delete" button
     Then the employee "Xyz" should be removed from the system
