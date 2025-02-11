@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3345","practice 1","","Tue Feb 11 09:07:54 IST 2025","passed","Tue Feb 11 09:07:58 IST 2025","","src\test\tests\allure1.spec.ts","",""
