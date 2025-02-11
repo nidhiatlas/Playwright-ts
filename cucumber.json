@@ -7,7 +7,7 @@
         "src/test/features/"
     ],
       "publishQuit":true,
-      "dryRun":true,
+      "dryRun":false,
       "require":[
         "src/test/steps/*.ts"
       ],
