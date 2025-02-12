@@ -1,2 +1,7 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","3345","practice 1","","Tue Feb 11 09:07:54 IST 2025","passed","Tue Feb 11 09:07:58 IST 2025","","src\test\tests\allure1.spec.ts","",""
+"","9792","practice 2","firefox","Tue Feb 11 14:19:08 IST 2025","failed","Tue Feb 11 14:19:18 IST 2025","","allure.spec.ts","",""
+"","1535","practice 2","webkit","Tue Feb 11 14:19:00 IST 2025","failed","Tue Feb 11 14:19:02 IST 2025","","allure.spec.ts","",""
+"","9493","practice 2","chromium","Tue Feb 11 14:19:11 IST 2025","failed","Tue Feb 11 14:19:20 IST 2025","","allure.spec.ts","",""
+"","1487","practice 1","webkit","Tue Feb 11 14:19:00 IST 2025","failed","Tue Feb 11 14:19:02 IST 2025","","allure.spec.ts","",""
+"","3669","practice 1","firefox","Tue Feb 11 14:18:53 IST 2025","passed","Tue Feb 11 14:18:56 IST 2025","","allure.spec.ts","",""
+"","11315","practice 1","chromium","Tue Feb 11 14:18:53 IST 2025","passed","Tue Feb 11 14:19:04 IST 2025","","allure.spec.ts","",""

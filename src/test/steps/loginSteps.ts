@@ -18,10 +18,10 @@ Given('User navigates on the application', async function () {
     await this.page.goto("https://opensource-demo.orangehrmlive.com/");
   });
 
-Given('User is on the OrangeHRM login page', async function (){
+  //Given('User is on the OrangeHRM login page', async function (){
  
-  await this.page.click('a[href="/index.php/auth/login"]');
-});
+  //await this.page.click('a[href="/index.php/auth/login"]');
+//});
 
 When('User enters valid username {string} and password {string}', async function (username: string, password: string) {
   await this.page.fill('[placeholder="Username"]', username);
