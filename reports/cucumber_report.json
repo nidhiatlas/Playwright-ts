@@ -1,0 +1,151 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-and-employee-management-in-orangehrm;login-with-valid-credentials-and-add-a-new-employee",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Login with valid credentials and add a new employee",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates on the application",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5428255500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "User clicks on the login link",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User enters valid username \"Admin\" and password \"admin123\"",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:32"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:37"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "User should be redirected to the dashboard",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:41"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I navigate to \"PIM\" and click on \"Add Employee\"",
+            "match": {
+              "location": "src\\test\\steps\\addEmpSteps.ts:24"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I enter \"John\" and \"Doe\" in the name fields",
+            "match": {
+              "location": "src\\test\\steps\\addEmpSteps.ts:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I select the job title \"Software Engineer\"",
+            "match": {
+              "location": "src\\test\\steps\\addEmpSteps.ts:36"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I click on \"Save\"",
+            "match": {
+              "location": "src\\test\\steps\\addEmpSteps.ts:41"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the new employee \"John Doe\" should be added successfully",
+            "match": {
+              "location": "src\\test\\steps\\addEmpSteps.ts:45"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-and-employee-management-in-orangehrm",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login and Employee Management in OrangeHRM",
+    "tags": [],
+    "uri": "src\\test\\features\\combined.feature"
+  }
+]
